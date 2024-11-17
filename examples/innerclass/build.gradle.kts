@@ -7,7 +7,7 @@
 
 plugins {
   kotlin("jvm")
-  id("com.facebook.kotlin.compilerplugins.dataclassgenerate")
+  id("xyz.ivaniskandar.compilerplugins.dataclassgenerate")
 }
 
 dependencies {

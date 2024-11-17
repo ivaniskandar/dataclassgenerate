@@ -12,7 +12,7 @@ plugins {
   alias(libs.plugins.kotlin.android)
   alias(libs.plugins.kotlin.serialization)
   id("kotlin-parcelize")
-  id("com.facebook.kotlin.compilerplugins.dataclassgenerate")
+  id("xyz.ivaniskandar.compilerplugins.dataclassgenerate")
 }
 
 android {

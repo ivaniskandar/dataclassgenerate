@@ -40,11 +40,11 @@ java {
 }
 
 gradlePlugin {
-  website.set("https://github.com/facebookincubator/dataclassgenerate")
-  vcsUrl.set("https://github.com/facebookincubator/dataclassgenerate")
+  website.set("https://github.com/ivaniskandar/dataclassgenerate")
+  vcsUrl.set("https://github.com/ivaniskandar/dataclassgenerate")
   plugins {
     create("dataClassGeneratePlugin") {
-      id = "com.facebook.kotlin.compilerplugins.dataclassgenerate"
+      id = "xyz.ivaniskandar.compilerplugins.dataclassgenerate"
       implementationClass =
           "com.facebook.kotlin.compilerplugins.dataclassgenerate.gradle.DataClassGeneratePlugin"
       displayName = "Data Class Generate"
