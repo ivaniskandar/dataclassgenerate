@@ -44,7 +44,7 @@ gradlePlugin {
   vcsUrl.set("https://github.com/ivaniskandar/dataclassgenerate")
   plugins {
     create("dataClassGeneratePlugin") {
-      id = "xyz.ivaniskandar.compilerplugins.dataclassgenerate"
+      id = "com.github.ivaniskandar.dataclassgenerate"
       implementationClass =
           "com.facebook.kotlin.compilerplugins.dataclassgenerate.gradle.DataClassGeneratePlugin"
       displayName = "Data Class Generate"

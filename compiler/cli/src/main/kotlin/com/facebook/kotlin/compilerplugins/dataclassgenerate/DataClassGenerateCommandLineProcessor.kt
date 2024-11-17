@@ -19,7 +19,7 @@ import org.jetbrains.kotlin.config.CompilerConfiguration
 
 @OptIn(org.jetbrains.kotlin.compiler.plugin.ExperimentalCompilerApi::class)
 class DataClassGenerateCommandLineProcessor : CommandLineProcessor {
-  override val pluginId: String = "com.facebook.kotlin.dataclassgenerate"
+  override val pluginId: String = "com.github.ivaniskandar.dataclassgenerate"
   override val pluginOptions: Collection<AbstractCliOption> =
       CompilerConfigurationProperties.all.map { it.cliOption }
 

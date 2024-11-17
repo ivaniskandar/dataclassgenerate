@@ -7,7 +7,7 @@
 
 plugins {
   kotlin("jvm")
-  id("xyz.ivaniskandar.compilerplugins.dataclassgenerate")
+  id("com.github.ivaniskandar.dataclassgenerate")
   application
 }
 

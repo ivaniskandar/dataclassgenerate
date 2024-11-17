@@ -9,7 +9,7 @@ import com.facebook.kotlin.compilerplugins.dataclassgenerate.gradle.DataClassGen
 
 plugins {
   kotlin("jvm")
-  id("xyz.ivaniskandar.compilerplugins.dataclassgenerate")
+  id("com.github.ivaniskandar.dataclassgenerate")
 }
 
 dataClassGenerate {
